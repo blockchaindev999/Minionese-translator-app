@@ -14,13 +14,14 @@ h1 {
 }
 
 #input-text {
+    font-size: 1.2rem;
     font-family: 'Miniver', cursive;
     display: block;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 50%;
     height: 10vh;
     padding: 20px;
 }
@@ -28,21 +29,31 @@ h1 {
 #btn-translate {
     font-size: 2rem;
     font-family: 'Miniver', cursive;
+    background-color: yellow;   
     margin: auto;
     display: block;
     padding: 0.5rem 3rem;
 }
 
 #output {
+    font-size: 1.2rem;
+    resize: both;
+    overflow: auto;
     padding: 20px;
     display: block;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 50%;
     height: 10vh;
     border-width: 1px;
     border-style: solid;
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+h2, p {
+    text-align: center;
+    background-color: yellow;
+    margin: 0px;
 }
